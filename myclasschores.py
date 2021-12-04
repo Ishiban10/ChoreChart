@@ -2,7 +2,7 @@ from random import randint  # need to import randint from random
 
 # creates the class for ChoreChart
 class ChoreChart:
-    chores_list = ["Upper Bathroom", "Lower Bathroom", "Kitchen", "Surfaces", "Floors", "Free"]
+    chores_list = ["Upper Bathroom", "Lower Bathroom", "Kitchen", "Surfaces", "Floors", "Free"]. # class variable
     def __init__(self, names, weeks):  # takes in two user inputs of number of weeks and a list of names
         self.__weeks = weeks
         self.__names = names
